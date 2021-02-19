@@ -1,24 +1,41 @@
-import logo from './logo.svg';
 import './App.css';
+import information from './data.json';
+import {useState,useEffect} from 'react';
+
+
 
 function App() {
+
+  const [nameBtn,setNameBtn]=useState("show");
+  const [state,setState]=useState(0);
+  const [datas, setDatas]=useState([]);
+  useEffect(()=>{
+    if(state==1){
+      setDatas(information);
+      setNameBtn("hide");
+    }
+    else {
+      setDatas([])
+      setNameBtn("show");
+    }
+  },[state])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <button onClick={()=>{setState(!state)}}>{nameBtn}</button>
+      <div style={datas[0]}>
+        {datas.map(data =>(
+            <span>
+            <img style={data} src={data.src}/>
+            <div style={data}>
+              {data.content}
+            </div>
+          </span>
+        ))}
+      </div>
+
     </div>
+
   );
 }
 

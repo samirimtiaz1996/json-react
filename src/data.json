@@ -1,0 +1,68 @@
+[
+  {
+    "type": "div",
+    "width": "562px",
+    "height": "337px",
+    "background": "url(https://images.unsplash.com/photo-1514483127413-f72f273478c3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80)",
+    "background-size": "contain",
+    "position": "relative"
+  },
+  {
+    "type": "p",
+    "position": "absolute",
+    "top": "10px",
+    "left": "40px",
+    "font-size": "25px",
+    "color": "#9e8263",
+    "font-family": "Montserrat",
+    "content": "Chirst Smite"
+  },
+  {
+    "type": "p",
+    "position": "absolute",
+    "top": "25px",
+    "left": "400px",
+    "color": "#fff",
+    "font-family": "Lato",
+    "font-style": "italic",
+    "content": "Product Designer"
+  },
+  {
+    "type": "img",
+    "position": "absolute",
+    "left": "40px",
+    "top": "235px",
+    "src": "//lh3.googleusercontent.com/1FLx-zsT1thix1WYZIR_iGJGRVEAcNgJzesurZ6i8rn_UT-nH0hDlUlXLFx5brs2jCotSg=s18"
+  },
+  {
+    "type": "p",
+    "position": "absolute",
+    "color": "#fff",
+    "font-family": "Lato",
+    "left": "70px",
+    "font-size": "14px",
+    "top": "195px",
+    "line-height": "20px",
+    "white-space": "pre-wrap",
+    "content": "Address :\n4901 Pryutt Road\nShinawa GG\n838123 United States"
+  },
+  {
+    "type": "img",
+    "position": "absolute",
+    "left": "320px",
+    "top": "235px",
+    "src": "//lh3.googleusercontent.com/9corIXSStME3pQOcJ0t6ozeUZIwtSPFhw6f7-dFqTvSFr1NXqH4ufcNDW6M9KvJyN3Cd0A=s23"
+  },
+  {
+    "type": "p",
+    "position": "absolute",
+    "color": "#fff",
+    "font-family": "Lato",
+    "left": "360px",
+    "font-size": "14px",
+    "top": "195px",
+    "line-height": "20px",
+    "white-space": "pre-wrap",
+    "content": "E-Mail :\nhello@yourdomain.com\nSite :\nwww.domain.com"
+  }
+]
